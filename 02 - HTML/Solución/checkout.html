@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Información de Entrega</h1>
+
+    <table border="">
+       <tr>
+           <td>
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Juan Pérez">
+        </td>
+        <td>
+            <label for="email">email</label>
+            <input type="text" placeholder="mail@mail.com">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="telefono">Teléfono</label>
+            <input type="text" placeholder="+56912345678">
+        </td>
+        <td>
+            <label for="paises">País</label>
+            <select name="paises" id="paises">
+                
+                <option value="México">México</option>
+                <option value="Perú">Perú</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Argentina">Argentina</option>
+            </select>
+                
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="direccion">Dirección</label>
+            <input type="text" placeholder="Calle, Número, Colonia">
+        </td>
+        <td>
+            <label for="ciudad">Ciudad</label>
+            <input type="text" placeholder="Ciudad">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="codigo_postal">Código Postal</label>
+            <input type="text" placeholder="12345">
+        </td>
+        <td>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="Ciudad de México">Ciudad de México</option>
+                <option value="Estado de México">Estado de México</option>
+                <option value="Guanajuato">Guanajuato</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="3"></textarea>
+        </td>
+    </tr>
+    </table>
+
+    <br><br>
+    <a href="./adornos.html">
+        <button type="button" title="adornos">Atrás</button>
+    </a>
+    <br><br>
+    
+    <button type="reset">Reset</button>
+
+    <a href="./recibo.html">
+        <button type="submit">Enviar</button>
+    </a>
+    
+</body>
+</html>
