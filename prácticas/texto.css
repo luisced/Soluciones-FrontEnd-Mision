@@ -1,0 +1,39 @@
+.izquierda {
+	text-align: left;
+}
+
+.derecha {
+	text-align: right;
+}
+
+.centrado {
+	text-align: center;
+}
+
+.justificado {
+	text-align: justify;
+}
+
+.decoradoOverline {
+	text-decoration: overline;
+}
+
+.decoradoCombinado {
+	text-decoration-line: dotted;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.Negritas {
+	font-weight: bold;
+}
+
+a.link {
+	text-decoration: underline;
+	text-decoration: none;
+	color: blueviolet;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}

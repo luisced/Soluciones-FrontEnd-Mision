@@ -1,0 +1,15 @@
+* {
+	font-family: "Courier New", Courier, monospace;
+}
+
+section {
+	height: 550px;
+}
+
+.fondocolor {
+	background-color: #f5f5f5;
+	background-image: url("https://i0.wp.com/hipertextual.com/wp-content/uploads/2017/03/color-degradado-fondos-degradados-multicolor-51200.jpg?fit=1200%2C750&ssl=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
